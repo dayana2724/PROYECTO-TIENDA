@@ -20,4 +20,4 @@ class product(models.Model):
 
 
     def str(self):
-        return self.name
+       return 'Producto: %s, Precio: %s' %(self.name, self.price)
